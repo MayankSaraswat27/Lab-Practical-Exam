@@ -1,6 +1,6 @@
 import express from "express";
 import connectDB from './src/config/db.js';
-import productRoutes from './src/routes/productRoutes.js';
+import productRoutes from './src/routes/productRoute.js';
 
 const app = express();
 
